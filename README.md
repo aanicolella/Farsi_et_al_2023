@@ -1,2 +1,2 @@
-# grin2a
-Code used for the processing and analysis of RNA-seq and snRNA-seq data for the Grin2a project
+# *** Insert article title here ***
+A collection of code used to process and analyze RNA-seq and snRNA-seq mouse data. This code uses Seurat v3.
