@@ -1,0 +1,1 @@
+rsem-calculate-expression -p 8  --bowtie2 --paired-end --estimate-rspd --append-names --sort-bam-by-coordinate parentDir/sample/sample.unmapped.1.fastq.gz parentDir/sample/sample.unmapped.2.fastq.gz homeDir/references/mouse_gencode/mouse_gencode parentDir/sample/sample
