@@ -82,7 +82,7 @@ for (i in celltypes){
   colData$genotype = as.factor(colData$genotype)
   colData$genotype = relevel(colData$genotype, "WT")
   # Add batch number if data comes from multiple experiments, example below
-  #colData$batch = as.factor(c(1,1,1,1,2,1,1,1,1,2,1,1,2,2,2))
+  #colData$batch = as.factor(c(1,1,1,1,2,1,1,1,1))
   
   dge = DGEList(counts = rsem.in, group = colData$genotype)
   keep = filterByExpr(dge)
